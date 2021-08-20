@@ -26,23 +26,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
 
-
+    The differences between .map, .reduce and .filter are:
+        - .map is for converting data, it takes in an array and returns a new array without manipulating the original. You could use .map to search through an array of objects containing user information and just return their usernames.
+        - .reduce is used to "reduce" an array of data into one value. It is typically used for multiplication or addition. You could use .reduce to calculate an average from a set of numbers in an array.
+        - .filter is used to filter through data using a conditional statement that is either true or false. It returns a new array with the information that passed through the conditional statement. You could use .filter to sift through an array of objects containing user information and return only those who have paid for a premium subscription. 
 
 2. Explain the difference between a callback and a higher order function.
 
-
+    A higher order function is one that recieves another function as an argument. A callback function is the function that is passed into a higher order function.
 
 3. Explain what a closure is.
 
-
+    Closure occurs when an inner function reaches outside it's scope to grab information from an outer function that it's nested in.
 
 4. Describe the four principles of the 'this' keyword.
 
-
+    - Global Binding - Global binding occurs when nothing is specified for "this", it returns the window or global object in node or undefined in strict mode. It's an error and not done on purpose.
+    - Implicit Binding - Implicit binding occurs when a function is being called through dot notation. "this" then refers to the object that is to the left of the dot before the function being called.
+    - Explicit Binding - Explicit binding occurs when using .bind, .apply, or .call. "this" refers to the object being referenced by the .bind, .apply, or .call methods.
+    - New Binding -
 
 5. Why do we need super() in an extended class?
 
-
+    We need to use super() in an extended class to tell the child class what to inherit from the parent class. It replaces the .call method from traditional constructor funcitons. 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
