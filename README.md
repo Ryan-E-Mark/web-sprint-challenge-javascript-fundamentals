@@ -44,7 +44,7 @@ Edit this document to include your answers after each question. Make sure to lea
     - Global Binding - Global binding occurs when nothing is specified for "this", it returns the window or global object in node or undefined in strict mode. It's an error and not done on purpose.
     - Implicit Binding - Implicit binding occurs when a function is being called through dot notation. "this" then refers to the object that is to the left of the dot before the function being called.
     - Explicit Binding - Explicit binding occurs when using .bind, .apply, or .call. "this" refers to the object being referenced by the .bind, .apply, or .call methods.
-    - New Binding -
+    - New Binding - New binding occurs when the new keyword is used to invoke a constructor function to create a new object. "this" refers to the new object being created.
 
 5. Why do we need super() in an extended class?
 
