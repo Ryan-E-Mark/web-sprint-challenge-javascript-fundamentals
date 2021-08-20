@@ -26,13 +26,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
 
+
+
 2. Explain the difference between a callback and a higher order function.
+
+
 
 3. Explain what a closure is.
 
+
+
 4. Describe the four principles of the 'this' keyword.
 
+
+
 5. Why do we need super() in an extended class?
+
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
